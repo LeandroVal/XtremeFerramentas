@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace XtremeFerramentas.Layouts
+namespace XtremeFerramentas
 {
     public partial class ferExc : Form
     {

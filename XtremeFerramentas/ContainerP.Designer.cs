@@ -224,6 +224,7 @@
             this.ms_princ_fer_con.Name = "ms_princ_fer_con";
             this.ms_princ_fer_con.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_con.Text = "Consultar";
+            this.ms_princ_fer_con.Click += new System.EventHandler(this.ms_princ_fer_con_Click);
             // 
             // toolStripSeparator6
             // 
@@ -251,6 +252,7 @@
             this.ms_princ_fer_mod.Name = "ms_princ_fer_mod";
             this.ms_princ_fer_mod.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_mod.Text = "Modificar";
+            this.ms_princ_fer_mod.Click += new System.EventHandler(this.ms_princ_fer_mod_Click);
             // 
             // toolStripSeparator12
             // 
@@ -264,6 +266,7 @@
             this.ms_princ_fer_exc.Name = "ms_princ_fer_exc";
             this.ms_princ_fer_exc.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_exc.Text = "Excluir";
+            this.ms_princ_fer_exc.Click += new System.EventHandler(this.ms_princ_fer_exc_Click);
             // 
             // toolStripSeparator3
             // 
@@ -277,6 +280,7 @@
             this.ms_princ_fer_ins.Name = "ms_princ_fer_ins";
             this.ms_princ_fer_ins.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_ins.Text = "Inserir";
+            this.ms_princ_fer_ins.Click += new System.EventHandler(this.ms_princ_fer_ins_Click);
             // 
             // toolStripSeparator4
             // 
@@ -290,6 +294,7 @@
             this.ms_princ_fer_rem.Name = "ms_princ_fer_rem";
             this.ms_princ_fer_rem.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_rem.Text = "Remover";
+            this.ms_princ_fer_rem.Click += new System.EventHandler(this.ms_princ_fer_rem_Click);
             // 
             // ms_princ_fun
             // 

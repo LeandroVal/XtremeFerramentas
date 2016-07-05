@@ -48,5 +48,42 @@ namespace XtremeFerramentas
             CefDevolucao.MdiParent = this;
             CefDevolucao.Show();
         }
+
+        private void ms_princ_fer_con_Click(object sender, EventArgs e)
+        {
+            conFerramenta ConFerramenta = new conFerramenta();
+            ConFerramenta.MdiParent = this;
+            ConFerramenta.Show();
+
+        }
+
+        private void ms_princ_fer_mod_Click(object sender, EventArgs e)
+        {
+            ferMod FerMod = new ferMod();
+            FerMod.MdiParent = this;
+            FerMod.Show();
+        }
+
+        private void ms_princ_fer_exc_Click(object sender, EventArgs e)
+        {
+            ferExc FerExc = new ferExc();
+            FerExc.MdiParent = this;
+            FerExc.Show();
+            
+        }
+
+        private void ms_princ_fer_ins_Click(object sender, EventArgs e)
+        {
+            ferrInserir FerrInserir = new ferrInserir();
+            FerrInserir.MdiParent = this;
+            FerrInserir.Show();
+        }
+
+        private void ms_princ_fer_rem_Click(object sender, EventArgs e)
+        {
+            ferrRemover FerrRemover = new ferrRemover();
+            FerrRemover.MdiParent = this;
+            FerrRemover.Show();
+        }
     }
 }
