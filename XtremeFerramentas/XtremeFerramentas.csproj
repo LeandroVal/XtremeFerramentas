@@ -47,24 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ferrInserir.cs" />
-    <Compile Include="ferrInserir.Designer.cs">
+    <Compile Include="Layouts\ferrInserir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\ferrInserir.Designer.cs">
       <DependentUpon>ferrInserir.cs</DependentUpon>
     </Compile>
-    <Compile Include="ferrRemover.cs" />
-    <Compile Include="ferrRemover.Designer.cs">
+    <Compile Include="Layouts\ferrRemover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\ferrRemover.Designer.cs">
       <DependentUpon>ferrRemover.cs</DependentUpon>
     </Compile>
-    <Compile Include="funcConsultarDebito.cs" />
-    <Compile Include="funcConsultarDebito.Designer.cs">
+    <Compile Include="Layouts\funcConsultarDebito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\funcConsultarDebito.Designer.cs">
       <DependentUpon>funcConsultarDebito.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncExcluir.cs" />
-    <Compile Include="FuncExcluir.Designer.cs">
+    <Compile Include="Layouts\FuncExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\FuncExcluir.Designer.cs">
       <DependentUpon>FuncExcluir.cs</DependentUpon>
     </Compile>
-    <Compile Include="funcMod.cs" />
-    <Compile Include="funcMod.Designer.cs">
+    <Compile Include="Layouts\funcMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\funcMod.Designer.cs">
       <DependentUpon>funcMod.cs</DependentUpon>
     </Compile>
     <Compile Include="Layouts\ferExc.cs">
@@ -129,19 +139,19 @@
     <Compile Include="Layouts\relatorioEmprestimoDevolucao.Designer.cs">
       <DependentUpon>relatorioEmprestimoDevolucao.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ferrInserir.resx">
+    <EmbeddedResource Include="Layouts\ferrInserir.resx">
       <DependentUpon>ferrInserir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ferrRemover.resx">
+    <EmbeddedResource Include="Layouts\ferrRemover.resx">
       <DependentUpon>ferrRemover.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="funcConsultarDebito.resx">
+    <EmbeddedResource Include="Layouts\funcConsultarDebito.resx">
       <DependentUpon>funcConsultarDebito.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FuncExcluir.resx">
+    <EmbeddedResource Include="Layouts\FuncExcluir.resx">
       <DependentUpon>FuncExcluir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="funcMod.resx">
+    <EmbeddedResource Include="Layouts\funcMod.resx">
       <DependentUpon>funcMod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\ferExc.resx">
